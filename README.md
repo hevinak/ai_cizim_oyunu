@@ -2,16 +2,16 @@
 
 A new Flutter project.
 
-## Getting Started
+# ✏️ Çizim Oyunu
 
-This project is a starting point for a Flutter application.
+Ekranda sana verilen kelimeyi çizersin, yapay zekâ çizimine bakıp ne olduğunu tahmin etmeye çalışır. Doğru tahmin ederse puan kazanırsın.
 
-A few resources to get you started if this is your first Flutter project:
+## Özellikler
+- Rastgele kelime verilir, 30 saniyen var
+- AI, çizimini her 5 saniyede ve her çizgi bittiğinde tahmin eder
+- Doğru tahmin +10 puan, süre dolarsa -5, pas geçersen -15
+- Doğru / yanlış sayacı ve toplam puan
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Kullanılan teknolojiler
+- Flutter (Dart)
+- [OpenRouter](https://openrouter.ai) API (Gemini 2.5 Flash modeli)
